@@ -3,35 +3,30 @@
     "name": "Calendario",
     "path": "/Calendario",
     "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\Calendario.vue",
-    "chunkName": "pages/Calendario",
-    "_name": "_6e8faeb9"
+    "chunkName": "pages/Calendario"
   },
   {
     "name": "dashboardCitas",
     "path": "/dashboardCitas",
     "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\dashboardCitas.vue",
-    "chunkName": "pages/dashboardCitas",
-    "_name": "_eb1acafe"
+    "chunkName": "pages/dashboardCitas"
   },
   {
     "name": "inspire",
     "path": "/inspire",
     "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_2ca7f475"
+    "chunkName": "pages/inspire"
   },
   {
     "name": "paciente",
     "path": "/paciente",
     "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\paciente.vue",
-    "chunkName": "pages/paciente",
-    "_name": "_658059e6"
+    "chunkName": "pages/paciente"
   },
   {
     "name": "index",
     "path": "/",
     "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2934132d"
+    "chunkName": "pages/index"
   }
 ]

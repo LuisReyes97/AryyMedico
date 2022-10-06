@@ -26,12 +26,33 @@
 </template>
 
 <script>
-  import dashboardCitasVue from './dashboardCitas.vue';
+import dashboardCitasVue from './dashboardCitas.vue';
 export default {
   components:{
     dashboardCitasVue
 
   },
-  name: 'IndexPage'
+  name: 'IndexPage',
+  head: {
+        title: 'Bienvenidos | ',
+        /*creamos un arreglos con objertos */
+        meta: [
+            { charset: 'utf-8' },
+            { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+            {
+                hid: 'description',
+                name: 'description',
+                content: 'Esta es mi pagina principal de Aryy '
+            }
+        ],
+  
+    }
+
 }
+
+
+
+
+
+
 </script>

@@ -3,7 +3,7 @@ import colors from 'vuetify/es5/util/colors'
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: '%s - Aryy',
+    titleTemplate: '%s  Aryy',
     title: 'Aryy',
     meta: [
       { charset: 'utf-8' },
