@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Calendario",
+    "path": "/Calendario",
+    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\Calendario.vue",
+    "chunkName": "pages/Calendario"
+  },
+  {
+    "name": "dashboardCitas",
+    "path": "/dashboardCitas",
+    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\dashboardCitas.vue",
+    "chunkName": "pages/dashboardCitas"
+  },
+  {
+    "name": "inspire",
+    "path": "/inspire",
+    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire"
+  },
+  {
+    "name": "paciente",
+    "path": "/paciente",
+    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\paciente.vue",
+    "chunkName": "pages/paciente"
+  },
+  {
+    "name": "index",
+    "path": "/",
+    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
+  }
+]
