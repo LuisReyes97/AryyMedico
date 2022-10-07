@@ -1,6 +1,7 @@
 <template>
-  <v-row justify="center" align="center">
-    <v-col cols="12" md="4">
+    <v-row justify="center" align="center">
+        <pintar />
+        <v-col cols="12" md="4">
             <h4>CITAS</h4>
             <dashboard-citas-vue></dashboard-citas-vue>
         </v-col>
@@ -22,18 +23,21 @@
             <h4>NOTICIAS</h4>
             <dashboard-noticias></dashboard-noticias>
         </v-col>
-  </v-row>
+        <iconHome/>
+
+
+    </v-row>
 </template>
 
 <script>
 import dashboardCitasVue from './dashboardCitas.vue';
 export default {
-  components:{
-    dashboardCitasVue
+    components: {
+        dashboardCitasVue
 
-  },
-  name: 'IndexPage',
-  head: {
+    },
+    name: 'IndexPage',
+    head: {
         title: 'Bienvenidos | ',
         /*creamos un arreglos con objertos */
         meta: [
@@ -45,7 +49,7 @@ export default {
                 content: 'Esta es mi pagina principal de Aryy '
             }
         ],
-  
+
     }
 
 }
@@ -56,3 +60,17 @@ export default {
 
 
 </script>
+
+<style>
+.icono {
+  height: 80px;
+  
+}
+
+.icono:hover{
+    fill: red;
+  transition-duration:1s;
+  cursor:pointer;
+
+}
+</style>

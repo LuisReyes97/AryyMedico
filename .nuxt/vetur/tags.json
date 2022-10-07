@@ -1,6 +1,12 @@
 {
+  "IconHome": {
+    "description": "Auto imported from components/iconHome.vue"
+  },
   "NuxtLogo": {
     "description": "Auto imported from components/NuxtLogo.vue"
+  },
+  "Pintar": {
+    "description": "Auto imported from components/pintar.vue"
   },
   "Tutorial": {
     "description": "Auto imported from components/Tutorial.vue"
