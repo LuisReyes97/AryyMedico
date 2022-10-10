@@ -2,85 +2,97 @@
   {
     "name": "Calendario",
     "path": "/Calendario",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\Calendario.vue",
-    "chunkName": "pages/Calendario",
-    "_name": "_6e8faeb9"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\Calendario.vue",
+    "chunkName": "pages/Calendario"
   },
   {
     "name": "DashboardAsistente",
     "path": "/DashboardAsistente",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\DashboardAsistente.vue",
-    "chunkName": "pages/DashboardAsistente",
-    "_name": "_260ddf93"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\DashboardAsistente.vue",
+    "chunkName": "pages/DashboardAsistente"
   },
   {
     "name": "dashboardCitas",
     "path": "/dashboardCitas",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\dashboardCitas.vue",
-    "chunkName": "pages/dashboardCitas",
-    "_name": "_eb1acafe"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\dashboardCitas.vue",
+    "chunkName": "pages/dashboardCitas"
   },
   {
     "name": "dashboardMarketing",
     "path": "/dashboardMarketing",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\dashboardMarketing.vue",
-    "chunkName": "pages/dashboardMarketing",
-    "_name": "_f08c98b2"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\dashboardMarketing.vue",
+    "chunkName": "pages/dashboardMarketing"
   },
   {
     "name": "DashboardMensajes",
     "path": "/DashboardMensajes",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\DashboardMensajes.vue",
-    "chunkName": "pages/DashboardMensajes",
-    "_name": "_62cadee3"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\DashboardMensajes.vue",
+    "chunkName": "pages/DashboardMensajes"
   },
   {
     "name": "DashboardNoticias",
     "path": "/DashboardNoticias",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\DashboardNoticias.vue",
-    "chunkName": "pages/DashboardNoticias",
-    "_name": "_82fee706"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\DashboardNoticias.vue",
+    "chunkName": "pages/DashboardNoticias"
   },
   {
     "name": "inspire",
     "path": "/inspire",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\inspire.vue",
-    "chunkName": "pages/inspire",
-    "_name": "_2ca7f475"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\inspire.vue",
+    "chunkName": "pages/inspire"
   },
   {
     "name": "paciente",
     "path": "/paciente",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\paciente.vue",
-    "chunkName": "pages/paciente",
-    "_name": "_658059e6"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\paciente.vue",
+    "chunkName": "pages/paciente"
+  },
+  {
+    "name": "auth-formLogin",
+    "path": "/auth/formLogin",
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\auth\\\\formLogin.vue",
+    "chunkName": "pages/auth/formLogin"
+  },
+  {
+    "name": "auth-login",
+    "path": "/auth/login",
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\auth\\\\login.vue",
+    "chunkName": "pages/auth/login"
+  },
+  {
+    "name": "auth-registerComponent",
+    "path": "/auth/registerComponent",
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\auth\\\\registerComponent.vue",
+    "chunkName": "pages/auth/registerComponent"
   },
   {
     "name": "calendario-barracalendar",
     "path": "/calendario/barracalendar",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\calendario\\\\barracalendar.vue",
-    "chunkName": "pages/calendario/barracalendar",
-    "_name": "_70b68fb7"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\calendario\\\\barracalendar.vue",
+    "chunkName": "pages/calendario/barracalendar"
   },
   {
     "name": "calendario-calendarchico",
     "path": "/calendario/calendarchico",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\calendario\\\\calendarchico.vue",
-    "chunkName": "pages/calendario/calendarchico",
-    "_name": "_7ff8fb89"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\calendario\\\\calendarchico.vue",
+    "chunkName": "pages/calendario/calendarchico"
   },
   {
     "name": "calendario-CalendarioMes",
     "path": "/calendario/CalendarioMes",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\calendario\\\\CalendarioMes.vue",
-    "chunkName": "pages/calendario/CalendarioMes",
-    "_name": "_1418b8a4"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\calendario\\\\CalendarioMes.vue",
+    "chunkName": "pages/calendario/CalendarioMes"
+  },
+  {
+    "name": "patient-patientView",
+    "path": "/patient/patientView",
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\patient\\\\patientView.vue",
+    "chunkName": "pages/patient/patientView"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "C:\\\\Users\\\\Guía Salud México\\\\Desktop\\\\AryyMedico\\\\pages\\\\index.vue",
-    "chunkName": "pages/index",
-    "_name": "_2934132d"
+    "component": "C:\\\\Users\\\\Guia Salud Mx\\\\Desktop\\\\AryyMedico\\\\pages\\\\index.vue",
+    "chunkName": "pages/index"
   }
 ]

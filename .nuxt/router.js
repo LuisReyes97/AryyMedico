@@ -4,18 +4,22 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _6e8faeb9 = () => interopDefault(import('..\\pages\\Calendario.vue' /* webpackChunkName: "pages/Calendario" */))
-const _260ddf93 = () => interopDefault(import('..\\pages\\DashboardAsistente.vue' /* webpackChunkName: "pages/DashboardAsistente" */))
-const _eb1acafe = () => interopDefault(import('..\\pages\\dashboardCitas.vue' /* webpackChunkName: "pages/dashboardCitas" */))
-const _f08c98b2 = () => interopDefault(import('..\\pages\\dashboardMarketing.vue' /* webpackChunkName: "pages/dashboardMarketing" */))
-const _62cadee3 = () => interopDefault(import('..\\pages\\DashboardMensajes.vue' /* webpackChunkName: "pages/DashboardMensajes" */))
-const _82fee706 = () => interopDefault(import('..\\pages\\DashboardNoticias.vue' /* webpackChunkName: "pages/DashboardNoticias" */))
-const _2ca7f475 = () => interopDefault(import('..\\pages\\inspire.vue' /* webpackChunkName: "pages/inspire" */))
-const _658059e6 = () => interopDefault(import('..\\pages\\paciente.vue' /* webpackChunkName: "pages/paciente" */))
-const _70b68fb7 = () => interopDefault(import('..\\pages\\calendario\\barracalendar.vue' /* webpackChunkName: "pages/calendario/barracalendar" */))
-const _7ff8fb89 = () => interopDefault(import('..\\pages\\calendario\\calendarchico.vue' /* webpackChunkName: "pages/calendario/calendarchico" */))
-const _1418b8a4 = () => interopDefault(import('..\\pages\\calendario\\CalendarioMes.vue' /* webpackChunkName: "pages/calendario/CalendarioMes" */))
-const _2934132d = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _20132ba7 = () => interopDefault(import('..\\pages\\Calendario.vue' /* webpackChunkName: "pages/Calendario" */))
+const _bc16e2fe = () => interopDefault(import('..\\pages\\DashboardAsistente.vue' /* webpackChunkName: "pages/DashboardAsistente" */))
+const _ba1c1f22 = () => interopDefault(import('..\\pages\\dashboardCitas.vue' /* webpackChunkName: "pages/dashboardCitas" */))
+const _03a06295 = () => interopDefault(import('..\\pages\\dashboardMarketing.vue' /* webpackChunkName: "pages/dashboardMarketing" */))
+const _2cfb9a35 = () => interopDefault(import('..\\pages\\DashboardMensajes.vue' /* webpackChunkName: "pages/DashboardMensajes" */))
+const _ee9d7062 = () => interopDefault(import('..\\pages\\DashboardNoticias.vue' /* webpackChunkName: "pages/DashboardNoticias" */))
+const _0b4d6372 = () => interopDefault(import('..\\pages\\inspire.vue' /* webpackChunkName: "pages/inspire" */))
+const _4dfa3a54 = () => interopDefault(import('..\\pages\\paciente.vue' /* webpackChunkName: "pages/paciente" */))
+const _465e37ca = () => interopDefault(import('..\\pages\\auth\\formLogin.vue' /* webpackChunkName: "pages/auth/formLogin" */))
+const _36d266ae = () => interopDefault(import('..\\pages\\auth\\login.vue' /* webpackChunkName: "pages/auth/login" */))
+const _3c5670df = () => interopDefault(import('..\\pages\\auth\\registerComponent.vue' /* webpackChunkName: "pages/auth/registerComponent" */))
+const _f4304dee = () => interopDefault(import('..\\pages\\calendario\\barracalendar.vue' /* webpackChunkName: "pages/calendario/barracalendar" */))
+const _d5ab764a = () => interopDefault(import('..\\pages\\calendario\\calendarchico.vue' /* webpackChunkName: "pages/calendario/calendarchico" */))
+const _0b24ed00 = () => interopDefault(import('..\\pages\\calendario\\CalendarioMes.vue' /* webpackChunkName: "pages/calendario/CalendarioMes" */))
+const _4b7dad48 = () => interopDefault(import('..\\pages\\patient\\patientView.vue' /* webpackChunkName: "pages/patient/patientView" */))
+const _5e948d02 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 const emptyFn = () => {}
 
@@ -30,51 +34,67 @@ export const routerOptions = {
 
   routes: [{
     path: "/Calendario",
-    component: _6e8faeb9,
+    component: _20132ba7,
     name: "Calendario"
   }, {
     path: "/DashboardAsistente",
-    component: _260ddf93,
+    component: _bc16e2fe,
     name: "DashboardAsistente"
   }, {
     path: "/dashboardCitas",
-    component: _eb1acafe,
+    component: _ba1c1f22,
     name: "dashboardCitas"
   }, {
     path: "/dashboardMarketing",
-    component: _f08c98b2,
+    component: _03a06295,
     name: "dashboardMarketing"
   }, {
     path: "/DashboardMensajes",
-    component: _62cadee3,
+    component: _2cfb9a35,
     name: "DashboardMensajes"
   }, {
     path: "/DashboardNoticias",
-    component: _82fee706,
+    component: _ee9d7062,
     name: "DashboardNoticias"
   }, {
     path: "/inspire",
-    component: _2ca7f475,
+    component: _0b4d6372,
     name: "inspire"
   }, {
     path: "/paciente",
-    component: _658059e6,
+    component: _4dfa3a54,
     name: "paciente"
   }, {
+    path: "/auth/formLogin",
+    component: _465e37ca,
+    name: "auth-formLogin"
+  }, {
+    path: "/auth/login",
+    component: _36d266ae,
+    name: "auth-login"
+  }, {
+    path: "/auth/registerComponent",
+    component: _3c5670df,
+    name: "auth-registerComponent"
+  }, {
     path: "/calendario/barracalendar",
-    component: _70b68fb7,
+    component: _f4304dee,
     name: "calendario-barracalendar"
   }, {
     path: "/calendario/calendarchico",
-    component: _7ff8fb89,
+    component: _d5ab764a,
     name: "calendario-calendarchico"
   }, {
     path: "/calendario/CalendarioMes",
-    component: _1418b8a4,
+    component: _0b24ed00,
     name: "calendario-CalendarioMes"
   }, {
+    path: "/patient/patientView",
+    component: _4b7dad48,
+    name: "patient-patientView"
+  }, {
     path: "/",
-    component: _2934132d,
+    component: _5e948d02,
     name: "index"
   }],
 

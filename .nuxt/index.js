@@ -12,12 +12,12 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_plugin_e5450514 from 'nuxt_plugin_plugin_e5450514' // Source: .\\components\\plugin.js (mode: 'all')
-import nuxt_plugin_plugin_606a223e from 'nuxt_plugin_plugin_606a223e' // Source: .\\vuetify\\plugin.js (mode: 'all')
-import nuxt_plugin_workbox_fc49b516 from 'nuxt_plugin_workbox_fc49b516' // Source: .\\workbox.js (mode: 'client')
-import nuxt_plugin_metaplugin_a9d05616 from 'nuxt_plugin_metaplugin_a9d05616' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
-import nuxt_plugin_iconplugin_a0810b2e from 'nuxt_plugin_iconplugin_a0810b2e' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
-import nuxt_plugin_axios_29061ace from 'nuxt_plugin_axios_29061ace' // Source: .\\axios.js (mode: 'all')
+import nuxt_plugin_plugin_79c8e2e4 from 'nuxt_plugin_plugin_79c8e2e4' // Source: .\\components\\plugin.js (mode: 'all')
+import nuxt_plugin_plugin_c81f38e0 from 'nuxt_plugin_plugin_c81f38e0' // Source: .\\vuetify\\plugin.js (mode: 'all')
+import nuxt_plugin_workbox_7093dc63 from 'nuxt_plugin_workbox_7093dc63' // Source: .\\workbox.js (mode: 'client')
+import nuxt_plugin_metaplugin_3f4c843a from 'nuxt_plugin_metaplugin_3f4c843a' // Source: .\\pwa\\meta.plugin.js (mode: 'all')
+import nuxt_plugin_iconplugin_35fd3952 from 'nuxt_plugin_iconplugin_35fd3952' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
+import nuxt_plugin_axios_71328d07 from 'nuxt_plugin_axios_71328d07' // Source: .\\axios.js (mode: 'all')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)
@@ -67,7 +67,7 @@ async function createApp(ssrContext, config = {}) {
   // here we inject the router and store to all child components,
   // making them available everywhere as `this.$router` and `this.$store`.
   const app = {
-    head: {"titleTemplate":"%s  Aryy","title":"Aryy","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"}],"style":[],"script":[]},
+    head: {"titleTemplate":"%s  Aryy","title":"Aryy","meta":[{"charset":"utf-8"},{"name":"viewport","content":"width=device-width, initial-scale=1"},{"hid":"description","name":"description","content":""},{"name":"format-detection","content":"telephone=no"},{"hid":"charset","charset":"utf-8"},{"hid":"mobile-web-app-capable","name":"mobile-web-app-capable","content":"yes"},{"hid":"apple-mobile-web-app-title","name":"apple-mobile-web-app-title","content":"AryyMedico"},{"hid":"og:type","name":"og:type","property":"og:type","content":"website"},{"hid":"og:title","name":"og:title","property":"og:title","content":"AryyMedico"},{"hid":"og:site_name","name":"og:site_name","property":"og:site_name","content":"AryyMedico"}],"link":[{"rel":"icon","type":"image\u002Fx-icon","href":"\u002Ffavicon.ico"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Ffonts.googleapis.com\u002Fcss?family=Roboto:100,300,400,500,700,900&display=swap"},{"rel":"stylesheet","type":"text\u002Fcss","href":"https:\u002F\u002Fcdn.jsdelivr.net\u002Fnpm\u002F@mdi\u002Ffont@latest\u002Fcss\u002Fmaterialdesignicons.min.css"},{"hid":"shortcut-icon","rel":"shortcut icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_64x64.e3e9fb.png"},{"hid":"apple-touch-icon","rel":"apple-touch-icon","href":"\u002F_nuxt\u002Ficons\u002Ficon_512x512.e3e9fb.png","sizes":"512x512"},{"rel":"manifest","href":"\u002F_nuxt\u002Fmanifest.7ff5458e.json","hid":"manifest"}],"style":[],"script":[],"htmlAttrs":{"lang":"en"}},
 
     router,
     nuxt: {
@@ -181,28 +181,28 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_plugin_e5450514 === 'function') {
-    await nuxt_plugin_plugin_e5450514(app.context, inject)
+  if (typeof nuxt_plugin_plugin_79c8e2e4 === 'function') {
+    await nuxt_plugin_plugin_79c8e2e4(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_plugin_606a223e === 'function') {
-    await nuxt_plugin_plugin_606a223e(app.context, inject)
+  if (typeof nuxt_plugin_plugin_c81f38e0 === 'function') {
+    await nuxt_plugin_plugin_c81f38e0(app.context, inject)
   }
 
-  if (process.client && typeof nuxt_plugin_workbox_fc49b516 === 'function') {
-    await nuxt_plugin_workbox_fc49b516(app.context, inject)
+  if (process.client && typeof nuxt_plugin_workbox_7093dc63 === 'function') {
+    await nuxt_plugin_workbox_7093dc63(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_metaplugin_a9d05616 === 'function') {
-    await nuxt_plugin_metaplugin_a9d05616(app.context, inject)
+  if (typeof nuxt_plugin_metaplugin_3f4c843a === 'function') {
+    await nuxt_plugin_metaplugin_3f4c843a(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_iconplugin_a0810b2e === 'function') {
-    await nuxt_plugin_iconplugin_a0810b2e(app.context, inject)
+  if (typeof nuxt_plugin_iconplugin_35fd3952 === 'function') {
+    await nuxt_plugin_iconplugin_35fd3952(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_axios_29061ace === 'function') {
-    await nuxt_plugin_axios_29061ace(app.context, inject)
+  if (typeof nuxt_plugin_axios_71328d07 === 'function') {
+    await nuxt_plugin_axios_71328d07(app.context, inject)
   }
 
   // Lock enablePreview in context
