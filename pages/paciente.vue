@@ -1,6 +1,7 @@
 <template>
     <div>
-        <h1>Paciente</h1>
+        <span>Paciente</span>
+
     </div>
 </template>
 
@@ -29,3 +30,12 @@ export default {
 }
 
 </script>
+
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,100&display=swap');
+
+span{
+    font-family: 'Montserrat', sans-serif;
+}
+
+</style> 

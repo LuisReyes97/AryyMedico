@@ -1,41 +1,50 @@
+<!--Maquetación de componentes al Dashboard | Luis Reyes-->
 <template>
-    <v-row justify="center" align="center">
-        <pintar />
+    <div class="container">
+        <v-row class="row">
         <v-col cols="12" md="4">
             <h4>CITAS</h4>
-            <dashboard-citas-vue></dashboard-citas-vue>
+            <DashboardCitas/>
         </v-col>
         <v-col cols="12" md="8">
             <v-row class="match-height">
                 <v-col cols="12" sm="4">
-                    <dashboard-marketing></dashboard-marketing>
+                    <DashboardMarketing/>
                 </v-col>
                 <v-col cols="12" sm="4">
-                    <dashboard-asistente></dashboard-asistente>
+                   <DashboardAsistente/>
                 </v-col>
             </v-row>
         </v-col>
         <v-col cols="12" sm="6" md="4">
             <h4>MENSAJES</h4>
-            <dashboard-mensajes></dashboard-mensajes>
+            <DashboardMensajes/>
         </v-col>
         <v-col cols="12" md="8">
             <h4>NOTICIAS</h4>
-            <dashboard-noticias></dashboard-noticias>
+            <DashboardNoticias/>
         </v-col>
-        <iconHome/>
-
-
     </v-row>
+    </div>
 </template>
+
 
 <script>
 import dashboardCitasVue from './dashboardCitas.vue';
+import DashboardCitas from './dashboardCitas.vue';
+import DashboardMarketing from './dashboardMarketing.vue';
+import DashboardAsistente from './DashboardAsistente.vue';
+import DashboardMensajes from './DashboardMensajes.vue';
+import DashboardNoticias from './DashboardNoticias.vue';
 export default {
     components: {
-        dashboardCitasVue
-
-    },
+    dashboardCitasVue,
+    DashboardCitas,
+    DashboardMarketing,
+    DashboardAsistente,
+    DashboardMensajes,
+    DashboardNoticias
+},
     name: 'IndexPage',
     head: {
         title: 'Bienvenidos | ',
@@ -53,12 +62,6 @@ export default {
     }
 
 }
-
-
-
-
-
-
 </script>
 
 <style>
@@ -73,4 +76,14 @@ export default {
   cursor:pointer;
 
 }
+
+v-row{
+  /* background: linear-gradient(50deg, rgba(255, 255, 255, 1) 35%, rgba(244, 237, 255, 1) 90%); */
+  background: rgb(255, 255, 255);
+  background: -moz-linear-gradient(50deg, rgba(255, 255, 255, 1) 35%, rgba(244, 237, 255, 1) 90%);
+  background: -webkit-linear-gradient(50deg, rgba(255, 255, 255, 1) 35%, rgba(244, 237, 255, 1) 90%);
+  background: linear-gradient(50deg, rgba(255, 255, 255, 1) 35%, rgba(244, 237, 255, 1) 90%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#ffffff", endColorstr="#f4edff", GradientType=1);
+}
 </style>
+

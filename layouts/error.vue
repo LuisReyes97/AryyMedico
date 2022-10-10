@@ -23,13 +23,13 @@ export default {
       default: null
     }
   },
-  data () {
+  data() {
     return {
       pageNotFound: '404 Not Found | Aryy en Cosntrucción',
       otherError: 'Ocurrio un error Con Aryy'
     }
   },
-  head () {
+  head() {
     const title =
       this.error.statusCode === 404 ? this.pageNotFound : this.otherError
     return {

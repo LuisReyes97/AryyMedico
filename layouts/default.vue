@@ -23,6 +23,9 @@
         </div>
       </v-list>
     </v-navigation-drawer>
+    <!--BARRA DE CALENARIO-->
+ 
+    <!--BARRA DE CALENARIO-->
     <v-app-bar :clipped-left="clipped" fixed app>
       <!-- <v-app-bar-nav-icon @click.stop="drawer = !drawer" /> -->
       <!--       <v-btn icon @click.stop="miniVariant = !miniVariant">
