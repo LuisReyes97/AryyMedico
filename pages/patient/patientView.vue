@@ -82,10 +82,10 @@
             align: 'start',
             filterable: false,
             value: 'name',
-            width:"450",
+            width:"250",
             align: 'start'
           },
-          { text: 'TELÉFONO', value: 'species',width:"250", align: 'start' },
+          { text: 'TELÉFONO', value: 'species',width:"200", align: 'start' },
           { text: 'ÚLTIMA VISITA', value: 'gender',width:"250", align: 'start' },
           { text: 'SIGUIENTE VISITA', value: 'create', sortable: false, width:"250", align: 'start'  },
           { text: '', value: 'actions', sortable: false,width:"400", align: 'start' },

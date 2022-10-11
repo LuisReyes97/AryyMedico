@@ -1,17 +1,17 @@
 <template>
     <div class="margen ">
       <v-img :src="require('@/assets/logos/ICONS_SPA_ISOLOGO.svg')" max-width="150"></v-img>
-      <h1>Especialistas, medicinas y <br/> análisis clínicos en un solo lugar</h1>
-      <p>Haz una cita, cotiza tus medicamentos y análisis <br/> clínicos o lleva control de tu tratamiento con <br/>ayuda de aryy.</p>
+      <h1>Especialistas, medicinas y <br /> análisis clínicos en un solo lugar</h1>
+      <p>Haz una cita, cotiza tus medicamentos y análisis clínicos o lleva control de tu tratamiento con ayuda de aryy.</p>
       <!-- ---- Sección de vista iniciar/registrar ---- -->
             <v-tabs
             class="tabs"
               v-model="tabs"
             >
-              <v-tab >
+              <v-tab class="tabs" >
                 Iniciar sesión
               </v-tab >
-              <v-tab>
+              <v-tab class="tabs">
                 Registrarse
               </v-tab>
             </v-tabs>
@@ -19,16 +19,16 @@
          <!--  ----Iniciar sesión---- -->
          <v-tab-item>
             <v-col
-            xs="9"
-            sm="9"
-            md="9"
+            xs="11"
+            sm="11"
+            md="11"
             >
             <v-card flat>
               <v-card-text >
-                <v-text-field justify-right placeholder="Usuario o telefono" rounded height="15" class="textfield"></v-text-field>
+                <v-text-field justify-right placeholder="Usuario o telefono" rounded height="25" class="textfield"></v-text-field>
                 <br />
                 <v-text-field
-                height="15"
+                height="25"
                 rounded 
                 class="textfield"
                 :append-icon="show1 ? 'mdi-eye' : 'mdi-eye-off'"
@@ -54,7 +54,7 @@
           <v-tab-item>
             <v-card flat>
             <v-col
-          md="9"
+          md="11"
           >
           <v-text-field
             placeholder="Ingresa un usuario"
@@ -88,15 +88,15 @@
               hint="Debe contener mínimo 8 carácteres"
               @click:append="show1 = !show1"
             ></v-text-field>
-            <v-btn class="margen4" block color="primary" height="50">
+            <v-btn class="margen4 btnn" block color="#7900ff" height="50">
                   Registrarme
             </v-btn>
             <br /> 
             <v-row>
             <v-col 
               xs="1"
-              sm="3"
-              md="5"
+              sm="6"
+              md="6"
             >
               <p class="accede">O registrate usando</p>
               </v-col>
@@ -146,20 +146,22 @@
   </script>
   <style>
   .margen{
-    margin: 64px;
+    margin: 34px;
   }
   .margen4{
     margin-top: 16px;
   }
   h1{
-    font-family: "Montserrat";
-    font-size: 30px;
+    font-family: "MontserratBold";
+    font-size: 1.3rem;
+    margin-top: -30px;
+    margin-bottom: 10px;
     color: #4f565f;
   }
   p{
-    font-family: "Montserrat";
+    font-family: "MontserratLight";
     color: #999999;
-    font-size: 18px;
+    font-size: 16px;
     
   }
   p.accede{
@@ -187,6 +189,7 @@
   .textfield{
       box-shadow: 0 0 10pt 2pt #f4edff;
       height: 50px;
+      font-size: .9rem;
       font-family: Montserrat;
     }
     
@@ -198,10 +201,11 @@
 
   a.accede{
     font-size: 15px;
-    font-family: "MontserratBold";
+    font-family: 'MontserratBold';
   }
   .tabs{
     color: #7900ff;
+    text-transform: unset !important;
     font-family: Montserrat;
   }
   r{

@@ -27,21 +27,21 @@
  
     <!--BARRA DE CALENARIO-->
     <v-app-bar :clipped-left="clipped" fixed app>
-      <!-- <v-app-bar-nav-icon @click.stop="drawer = !drawer" /> -->
-      <!--       <v-btn icon @click.stop="miniVariant = !miniVariant">
+       <v-app-bar-nav-icon @click.stop="drawer = !drawer" /> 
+            <!-- <v-btn icon @click.stop="miniVariant = !miniVariant">
         <v-icon>mdi-{{ `chevron-${miniVariant ? 'right' : 'left'}` }}</v-icon>
       </v-btn> -->
-      <!--    <v-btn icon @click.stop="clipped = !clipped">
+          <!-- <v-btn icon @click.stop="clipped = !clipped">
         <v-icon>mdi-application</v-icon>
-      </v-btn> -->
-      <!--       <v-btn icon @click.stop="fixed = !fixed">
+      </v-btn>  -->
+            <!--  <v-btn icon @click.stop="fixed = !fixed">
         <v-icon>mdi-minus</v-icon>
-      </v-btn> -->
-      <!--    <v-toolbar-title>{{ title }}</v-toolbar-title> -->
+      </v-btn> --> 
+         <!--  <v-toolbar-title>{{ title }}</v-toolbar-title> -->
       <v-spacer />
-      <!--       <v-btn icon @click.stop="rightDrawer = !rightDrawer">
-        <v-icon>mdi-menu</v-icon>
-      </v-btn> -->
+             <v-btn icon @click.stop="rightDrawer = !rightDrawer">
+        <v-icon>mdi-menu</v-icon> 
+      </v-btn> 
     </v-app-bar>
     <v-main>
       <v-container>
@@ -89,7 +89,7 @@ export default {
         {
           url: require("@/static/paciente.svg"),
           title: 'Pacientes',
-          to: '/Paciente'
+          to: '/patient/patientView'
         },
         {
           url: require("@/static/mensaje.svg"),
@@ -162,5 +162,8 @@ export default {
 .bg-active {
   background-color: #7900ff;
   color: white !important;
+}
+.theme--light.v-application {
+  background-color: var(--v-background-base, #f4edff) !important;
 }
 </style> 

@@ -1,7 +1,10 @@
 <template>
           <v-card flat>
             <v-col
-          md="9"
+            xs="11"
+            sm="11"
+            md="11"
+            >
           >
           <v-text-field
             placeholder="Ingresa un usuario"
