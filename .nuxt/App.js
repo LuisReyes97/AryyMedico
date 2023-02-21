@@ -6,6 +6,8 @@ import NuxtError from '..\\layouts\\error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
+import '..\\assets\\fonts\\font.css'
+
 import '..\\node_modules\\vuetify\\dist\\vuetify.css'
 
 import _2d217e9e from '..\\layouts\\auth.vue'
